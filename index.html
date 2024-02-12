@@ -489,18 +489,20 @@
           <p>N'hésitez pas à me contacter pour discuter de collaborations, de projets passionnants ou simplement pour échanger des idées. Votre message est le bienvenu, et je suis impatient de connecter avec vous.</p>
         </div>
         
-        <form action="contact.php" class="form">
+        <form action="https://formsubmit.co/guillaume.zimmer.pro@gmail.com" method="POST" class="form">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="text" name="_honey" style="display:none">
           <label for="firstname">
-            <input type="text" name="firstname" id="firstname" placeholder="Prenom"> 
+            <input type="text" name="firstname" id="firstname" placeholder="Prenom" required> 
           </label>
           <label for="lastname">
-            <input type="text" name="lastname" id="lastname" placeholder="Nom"> 
+            <input type="text" name="lastname" id="lastname" placeholder="Nom" required> 
           </label>
           <label for="email">
             <input type="email" name="email" id="email" placeholder="Email"> 
           </label>
           <textarea name="message" id="message" placeholder="Votre message"></textarea>
-          <a href="javascript:void(0);" class="btn" onclick="sendMail()">Envoyer</a>
+          <input type="submit" class="btn"  value="Envoyer">
         </form>
       </div>
     </section>
