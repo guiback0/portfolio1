@@ -1,0 +1,538 @@
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Guillaume Zimmer - Développeur Web Junior</title>
+  <meta name="description" content="Portfolio de Guillaume Zimmer - Développeur Web Junior">
+  <link rel="shortcut icon" href="./img/favicon.ico?v=1" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="./img/favicon.ico?v=1" type="image/x-icon">
+  <link rel="stylesheet" href="./css/global.css">
+  <script src="./js/global.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container d-flex">
+      <div class="logo">
+        Guillaume Zimmer
+      </div> 
+      <nav class="navbar">
+        <ul class="menu list__unstyled">
+          <li><a href="#hero">Accueil</a></li>
+          <li><a href="#about">A propos</a></li>
+          <li><a href="#experiences">Expériences</a></li>
+          <li><a href="#skills">Compétences</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="right">
+        <ul class="socials list__unstyled">
+          <li>
+            <a href="https://www.linkedin.com/in/guillaume-zimmer/" target="_blank">
+              <svg aria-hidden="true" class="icon linkedin" xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                <path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <button class="burger"><span class="bar"></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container">
+        <div class="grid">
+          <div class="hero__item left">
+            <span> Développeur Web Junior</span>
+            <h1 class="title">Bonjour, je suis Guillaume Zimmer</h1>
+            <p>Explorez mon portfolio de développement web junior, où chaque projet témoigne de ma passion et de mes compétences croissantes dans le domaine. Bienvenue dans mon univers digital.
+            </p>
+          </div>
+          <div class="hero__item right">
+            <div class="hero__picture">
+              <img src="./img/portrait/portrait1.jpg" width="400" height="400" loading="lazy" alt="Photo de profil - Guillaume Zimmer Developpeur Junior" loading="lazy" >
+            </div>
+          </div>
+        </div>    
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="grid">
+          <div class="grid__item left">
+            <img src="./img/portrait/portrait2.jpg" width="500" height="531" loading="lazy" alt="Photo de Guillaume Zimmer" loading="lazy">
+          </div>
+          <div class="grid__item right">
+            <h2 class="section__title">À Propos</h2>
+            <h3>Qui suis-je ?</h3>
+            <p>
+              Diplômé d'un Bac +3 en <strong>Conception Mécanique Aidé par Ordinateur (LP CMAO)</strong> et d’un Bac +2 en <strong>Génie Mécanique et Productique (DUT GMP)</strong>, ma carrière a débuté dans le domaine de la gestion de chantier pour des projets de promoteur et de construction métallique. <br>
+              Mon parcours m'a également conduit à travailler dans des domaines variés tels que l'élaboration de devis et de plans dans le secteur de la menuiserie intérieure, la conception de projets d'ouvrage métallique, ainsi que l'optimisation de solutions de fabrication de charpente métallique. Ma capacité à m'adapter rapidement et à m'intégrer efficacement dans de nouveaux environnements de travail a été un atout essentiel. <br>
+              Aujourd'hui, je suis passionné par ma reconversion en tant que <strong>développeur web</strong>, cherchant à exploiter ces compétences variées dans le monde de la technologie. Je suis enthousiaste à l'idée de partager mon portfolio et d'échanger avec vous sur cette nouvelle aventure professionnelle.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experiences" class="experiences">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Expériences</h2>
+          <p>Découvrez mes expériences professionnelles à travers cette section, révélant ma diversité et mon engagement dans différents domaines.</p>
+        </div>
+        <div class="grid">
+          <div class="grid__item left">
+            <div class="experiences">
+              <div class="experiences__icon">
+                <img src="./img/exp-logo/coutier_logo.png" loading="lazy" alt="logo de l'entreprise Coutier Industrie" class="card__image" loading="lazy">    
+              </div>
+              <div class="experiences__content">
+                <h3>Coutier Industrie - France</h3>
+                <div class="date">
+                  <time datetime="2023-02-01">1 Février 2023</time> à <time datetime="2023-10-06">6 Octobre 2023</time>
+                </div>
+                <p>
+                  Intérimaire - <strong>Dessinateur Industriel</strong>
+                </p>
+                <ul class="list__unstyled">
+                  <li>Conception et mise en plan de projet lié à l’industrie automobile</li>
+                  <li>Gestion de chantier industriel</li>
+                </ul>
+              </div>
+            </div>
+            <div class="experiences">
+              <div class="experiences__icon">
+                <img src="./img/exp-logo/bamolux_logo.png" loading="lazy" alt="logo de l'entreprise Bamolux" class="card__image" loading="lazy">    
+              </div>
+              <div class="experiences__content">
+                <h3>Bamolux Sàrl - Luxembourg</h3>
+                <div class="date">
+                  <time datetime="2022-01-17">17 Janvier 2022</time> à <time datetime="2023-01-15">15 janvier 2023</time>
+                </div>
+                <p>CDI - (Août – Janvier) - <strong>Gestionnaire de chantier Junior</strong></p>
+                <ul class="list__unstyled">
+                  <li>Gestion de chantier de menuiserie intérieure pour des projets de promoteur immobilier et de constructeur</li>
+                </ul>
+                <p>CDI - (Janvier – Juillet) - <strong>Secrétaire Technique</strong></p>      
+                <ul class="list__unstyled">
+                  <li>Réalisation de devis / plans / tâches administratives dans le secteur de la menuiserie intérieure et le parachèvement à sec</li>
+                </ul> 
+              </div>
+            </div>
+            <div class="experiences">
+              <div class="experiences__icon">
+                <img src="./img/exp-logo/wallerich_logo.png" loading="lazy" alt="logo de l'entreprise Wallerich Lux" class="card__image" loading="lazy">    
+              </div>
+              <div class="experiences__content">
+                <h3>Wallerich Lux - Luxembourg</h3>
+                <div class="date">
+                  <time datetime="2020-10-22">22 Octobre 2020</time> à <time datetime="2021-07-09">9 Juillet 2021</time>
+                </div>
+                <p>
+                  Intérimaire - <strong>Préparateur Méthodes</strong>
+                </p>
+                <ul class="list__unstyled">
+                  <li>Étude et optimisation des solutions de fabrication de charpente métallique</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="grid__item right">
+            <div class="experiences">
+              <div class="experiences__icon">
+                <img src="./img/exp-logo/eri-est_logo.png" loading="lazy" alt="logo de l'entreprise ERI-EST" class="card__image" loading="lazy">
+              </div>
+              <div class="experiences__content">
+                <h3>ERI-EST - France</h3>
+                <div class="date">
+                  <time datetime="2019-08-01">1 Août 2020</time> à <time datetime="2020-09-18">18 Septembre 2020</time>
+                </div>
+                <p>
+                  Alternance - <strong>Dessinateur Industriel</strong>
+                </p>
+                <ul class="list__unstyled">
+                  <li>Conception d’une dizaine de projets en majorité aboutis</li>
+                </ul>
+              </div>
+            </div>
+            <div class="experiences">
+              <div class="experiences__icon">
+                <img src="./img/exp-logo/apex_recruitment_logo.png" loading="lazy" alt="logo de l'entreprise APEX Recruitement" class="card__image" loading="lazy">
+              </div>
+              <div class="experiences__content">
+                <h3>APEX Recruitement - Nouvelle-Zélande</h3>
+                <div class="date">
+                  <time datetime="2019-02">Février 2020</time>
+                </div>
+                <p>
+                  Ouvrier - <strong>Nettoyage Chantier</strong>
+                </p>
+              </div>
+            </div>
+            <div class="experiences">
+              <div class="experiences__icon">
+                <img src="./img/exp-logo/wallerich_logo.png" loading="lazy" alt="logo de l'entreprise Wallerich Lux" class="card__image" loading="lazy">                             
+              </div>
+              <div class="experiences__content">
+                <h3>Wallerich Lux - Luxembourg</h3>
+                <div class="date">
+                  <time datetime="2019-04">Avril 2018</time> à <time datetime="2020-06">Juin 2020</time>
+                </div>
+                <p>
+                  Stage de fin d’année  - <strong>Chef de projet</strong>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Mes Compétences</h2>
+          <p>Explorez  mes compétences, reflétant ma polyvalence et mon expertise dans différents domaines.</p>
+        </div>
+        <div class="grid">
+          <div class="grid__item left">
+            <h3>Domaine de compétences</h3>
+            <ul class="list__unstyled">
+              <li>
+                <h4>Conception Mécanique</h4>
+                <p>Compétence à élaborer des solutions innovantes en ingénierie, intégrant des principes mécaniques pour créer des produits ou systèmes efficaces.</p>
+              </li>
+              <li>
+                <h4>Préparation Méthodes</h4>
+                <p>Aptitude à élaborer des procédures optimales et efficaces pour la fabrication, l'assemblage ou l'exploitation de produits, intégrant des méthodologies rigoureuses et des normes de qualité.</p>
+              </li>
+              <li>
+                <h4>Développement WEB</h4>
+                <p>Création et amélioration des applications web, sites internet ou plateformes </p>
+              </li>
+              <li>
+                <h4>Polyvalent</h4>
+                <p>Capacité à s'adapter et exceller dans divers domaines ou compétences, démontrant une flexibilité et une aptitude à aborder avec succès une gamme variée de tâches ou de responsabilités.</p>
+              </li>
+              <li>
+                <h4>Consciencieux</h4>
+                <p>Engagement à accomplir les tâches avec précision, diligence et souci du détail, démontrant une approche méticuleuse et responsable dans l'exécution des responsabilités professionnelles.</p>
+              </li>
+            </ul>
+          </div>
+          <div class="grid__item right">
+            <h3>Compétences en CAO/DAO</h3>
+            <div class="progressbar">
+              <div class="bar" data-width="90">SolidWorks</div>
+            </div>
+            <div class="progressbar">
+              <div class="bar" data-width="70">Inventor</div>
+            </div>
+            <div class="progressbar">
+              <div class="bar" data-width="70">AutoCAD</div>
+            </div>
+            <div class="progressbar">
+              <div class="bar" data-width="60">Catia</div>
+            </div>
+            <h3>Compétences en Développement</h3>
+            <div class="progressbar">
+              <div class="bar" data-width="30">HTML</div>
+            </div><div class="progressbar">
+              <div class="bar" data-width="30">CSS</div>
+            </div><div class="progressbar">
+              <div class="bar" data-width="15">JS</div>
+            </div>
+            <h3>Autres</h3>
+            <div class="progressbar">
+              <div class="bar" data-width="90">Office</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Portfolio</h2>
+          <p>Découvrez mes projets. Chaque création raconte une histoire unique, exprimant ma créativité et mon savoir-faire.</p>
+        </div>
+        <ul class=" grid portfolio__filters list__unstyled">
+          <li class="grid__item">
+            <a href="#" class="active" data-filter="all">Tous les projets</a>
+          </li>
+          <li class="grid__item">
+            <a href="#" class="active" data-filter="web">Développement Web</a>
+          </li>
+          <li class="grid__item">
+            <a href="#" class="active" data-filter="app">Application</a>
+          </li>
+          <li class="grid__item">
+            <a href="#" class="active" data-filter="cao">CAO</a>
+          </li>
+        </ul>
+        <div class="grid">
+          <div class="grid__item">
+            <div class="card" data-category="web">
+              <img src="./img/projet/portfolio1-1.png" width="600" height="400" loading="lazy" alt="Image du portfolio numéro 1"  class="card__image" loading="lazy">
+              <div class="card__inner">
+                <h3 class="card__title">Portfolio n°1</h3>
+                <p class="category">Développement Web</p>
+              </div>
+              <div class="card__overlay">
+                <a href="#" class="card__link" data-id="modal-1">+</a>
+              </div>
+            </div>
+            <div class="modal" id="modal-1">
+              <button class="modal__close">&times;</button>
+  
+              <div class="modal__content">
+  
+                <div class="container">
+                  <div class="grid">
+                    <div class="grid__item">
+                      <img src="./img/projet/portfolio1-2.png" width="560" height="373" loading="lazy" alt="Image du portfolio numéro 1"  class="card__image" loading="lazy">
+                      <img src="./img/projet/portfolio1-3.png"  width="560" height="373" loading="lazy" alt="Code du portfolio numéro 1"  class="card__image" loading="lazy">
+                    </div>
+                    <div class="grid__item">
+                      <h4 class="modal__title h2">Portfolio n°1</h4>
+                      <p>
+                        <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                          data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                          <path fill="currentColor"
+                            d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                          </path>
+                        </svg>
+                        <i>Année : 2024</i>
+                      </p>
+                      <p class="category">
+                        <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                          class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 512 512">
+                          <path fill="currentColor"
+                            d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                          </path>
+                        </svg>
+                        Développement WEB
+                      </p>
+                      <p>
+                       Découvrez mon portfolio en ligne, une vitrine numérique illustrant mes début dans le monde du développement web et présentant mes réalisations avec élégance.
+                      </p>
+                      <h5 class="h3">Informations</h5>
+                      <p>
+                        Ce portfolio a été élaboré dans le cadre de ma formation NUM&BOOST de l'école Metz Numérique School. Conçu avec passion, il repose sur une base solide de langages web, notamment HTML, CSS et JS, démontrant ainsi l'application concrète de mes compétences acquises durant la formation.
+                      </p>
+                      <h5 class="h3">Technologies</h5>
+                      <ul>
+                        <li>HTML, CSS</li>
+                        <li>Javascript</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid__item">
+            <div class="card" data-category="cao">
+              <img src="./img/projet/portfolio2-1.png" width="600" height="400" loading="lazy" alt="Servante à mastique semi-automatisée" class="card__image" loading="lazy">
+              <div class="card__inner">
+                <h3 class="card__title">Servante à mastique</h3>
+                <p class="category">CAO</p>
+              </div>
+              <div class="card__overlay">
+                <a href="#" class="card__link" data-id="modal-2">+</a>
+              </div>
+            </div>
+            <div class="modal" id="modal-2">
+              <button class="modal__close">&times;</button>
+              <div class="modal__content">
+                <div class="container">
+                  <div class="grid">
+                    <div class="grid__item">
+                      <img src="./img/projet/portfolio2-2.png" width="560" height="373" loading="lazy" alt="3D de la servante à mastique semi-automatisée"  class="card__image" loading="lazy">
+                      <img src="./img/projet/portfolio2-3.png" width="560" height="373" loading="lazy" alt="Dessin technique de la servante à mastique semi-automatisée"  class="card__image" loading="lazy">
+                    </div>
+                    <div class="grid__item">
+                      <h4 class="modal__title h2">Optimisation des Servantes</h4>
+                      <p>
+                        <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                          data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                          <path fill="currentColor"
+                            d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                          </path>
+                        </svg>
+                        <i>Année : 2020</i>
+                      </p>
+                      <p class="category">
+                        <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                          class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 512 512">
+                          <path fill="currentColor"
+                            d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                          </path>
+                        </svg>
+                        Conception Mécanique Aidé par Ordinateur
+                      </p>
+                      <p>
+                        Remplacement de servantes à mastique semi-automatisées dans l'usine Renault SOVAB pour permettre une augmentation de cadence.
+                      </p>
+  
+                      <h5 class="h3">Informations</h5>
+                      <p>
+                        Ce projet fait partie des travaux conclus en fin d'année au cours de mon programme en alternance chez ERI-EST.
+                      </p>
+  
+                      <h5 class="h3">Technologies</h5>
+  
+                      <ul>
+                        <li>Inventor</li>
+                        <li>AutoCAD</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            <div class="grid__item">
+              <div class="card" data-category="cao">
+                <img src="./img/projet/portfolio3-1.png" width="600" height="400" loading="lazy" alt="Representation de la parade de disney et du chariot Pumba" class="card__image" loading="lazy">
+                <div class="card__inner">
+                  <h3 class="card__title">Assistance de chariot</h3>
+                  <p class="category">CAO</p>
+                </div>
+                <div class="card__overlay">
+                  <a href="#" class="card__link" data-id="modal-3">+</a>
+                </div>
+              </div>
+              <div class="modal" id="modal-3">
+                <button class="modal__close">&times;</button>
+    
+                <div class="modal__content">
+    
+                  <div class="container">
+                    <div class="grid">
+                      <div class="grid__item">
+                        <img src="./img/projet/portfolio3-2.png" width="560" height="373"  loading="lazy" alt="3D du chariot Pumba" class="card__image" loading="lazy">
+                        <img src="./img/projet/portfolio3-3.png"  width="560" height="373" loading="lazy" alt="Dessin technique du chariot Pumba" class="card__image" loading="lazy">
+                      </div>
+                      <div class="grid__item">
+                        <h4 class="modal__title h2">L’assistance du chariot PUMBA</h4>
+                        <p>
+                          <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                            data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path fill="currentColor"
+                              d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                            </path>
+                          </svg>
+                          <i>Année : 2020</i>
+                        </p>
+                        <p class="category">
+                          <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                            class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512">
+                            <path fill="currentColor"
+                              d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                            </path>
+                          </svg>
+                          Conception Mécanique Aidé par Ordinateur
+                        </p>
+                        <p>
+                          Le projet s’inscrit dans le cadre d’une nouvelle saison chez Disney 
+                          Il m'a été demandé d’ajouter une assistance électrique à la poussée d’une base roulante existante ainsi qu’un nouveau système de freinage.
+                        </p>
+                        <h5 class="h3">Informations</h5>
+                        <p>
+                          Ce projet fait partie des travaux conclus en fin d'année au cours de mon programme en alternance chez ERI-EST.
+                        </p>
+                        <h5 class="h3">Technologies</h5>
+                        <ul>
+                          <li>Inventor</li>
+                          <li>AutoCAD</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid__item__error error">
+              <div class="card error" data-category="app">
+                <img src="./img/projet/portfolio-error.png" height="400" loading="lazy" alt="projet de la ville" class="card__image" width=50% loading="lazy">
+                <div class="card__inner">
+                  <h3 class="card__title">Aucun résultat</h3>
+                  <p class="category">Aucune application trouvé</p>
+                </div>
+              </div>
+              
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Contact</h2>
+          <p>N'hésitez pas à me contacter pour discuter de collaborations, de projets passionnants ou simplement pour échanger des idées. Votre message est le bienvenu, et je suis impatient de connecter avec vous.</p>
+        </div>
+        
+        <form action="contact.php" class="form">
+          <label for="firstname">
+            <input type="text" name="firstname" id="firstname" placeholder="Prenom"> 
+          </label>
+          <label for="lastname">
+            <input type="text" name="lastname" id="lastname" placeholder="Nom"> 
+          </label>
+          <label for="email">
+            <input type="email" name="email" id="email" placeholder="Email"> 
+          </label>
+          <textarea name="message" id="message" placeholder="Votre message"></textarea>
+          <a href="javascript:void(0);" class="btn" onclick="sendMail()">Envoyer</a>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="grid">
+        <div class="grid__item one">
+          <p>Guillaume Zimmer</p>
+        </div>
+        <div class="grid__item two">
+          <ul class="socials list__unstyled">
+            <li>
+              <a href="https://www.linkedin.com/in/guillaume-zimmer/" target="_blank">
+                <svg width="14" aria-hidden="true" class="icon linkedin" focusable="false" data-prefix="fab"
+                data-icon="linkedin-in" class="svg-inline--fa fa-linkedin-in fa-w-14" role="img"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <path fill="currentColor"
+                  d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                </path>
+              </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="grid__item three">
+          <p>Copyright © 2023 nomdusite. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
