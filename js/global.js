@@ -146,15 +146,3 @@ const observerIntersectionAnimation = () => {
 observerIntersectionAnimation();
 
 
-function sendMail() {
-  var firstname = document.getElementById("firstname").value;
-  var lastname = document.getElementById("lastname").value;
-  var email = document.getElementById("email").value;
-  var message = document.getElementById("message").value;
-
-  var mailtoLink = "mailto:adresse@email.com" +
-    "?subject=Message%20de%20" + encodeURIComponent(firstname + " " + lastname) +
-    "&body=" + encodeURIComponent("Email: " + email + "\n\nMessage:\n" + message);
-
-  window.location.href = mailtoLink;
-}
